@@ -1,0 +1,20 @@
+
+# Ignore build output
+bin/*
+app/obj/*
+
+# Ignore user-specific files
+*.user
+*.suo
+*.cache
+*.log
+
+# Ignore NuGet package directory
+/packages/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore secrets file
+/appsettings.Development.json
