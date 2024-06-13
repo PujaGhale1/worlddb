@@ -20,11 +20,6 @@ docker-compose up -d
 
 (Comming soon)
 
-# Code of Conduct
-
-In order to foster an open and welcoming environment, we pledge to make participation in this space a harassment free experience for everyone, regardless of sex, age, gender, personnel appearance, nationality and oritentation. Please be considerate on what you share and how you express your opinions. 
-
-
 # Contribution Guidelines
 
 We welcome contributions of all kinds, including bug reports, new features, documentation improvements, and more. Here’s how you can help:
