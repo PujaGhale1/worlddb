@@ -21,26 +21,68 @@ docker-compose up -d
 Population Summary API
 World Population
 Endpoint: GET /api/data/population/world
+
+
 Description: Retrieves the total population of the world.
+
+
 Response: A decimal number representing the total world population.
+
+
 Continent Population
+
+
 Endpoint: GET /api/data/population/continent
+
+
 Description: Retrieves the total population of a specified continent.
+
+
 Query Parameter: name (the continent's name)
+
+
 Response: A decimal number representing the total population of the specified continent.
+
+
 Region Population
+
+
 Endpoint: GET /api/data/population/region
+
+
 Description: Retrieves the total population of a specified region.
+
+
 Query Parameter: name (the region's name)
+
+
 Response: A decimal number representing the total population of the specified region.
+
+
 Country Population
+
+
 Endpoint: GET /api/data/population/country
+
+
 Description: Retrieves the total population of a specified country.
+
+
 Query Parameter: name (the country's name)
+
+
 Response: A decimal number representing the total population of the specified country.
+
+
 District Population
+
+
 Endpoint: GET /api/data/population/district
+
+
 Description: Retrieves the total population of a specified district.
+
+
 Query Parameter: name (the district's name)
 Response: A decimal number representing the total population of the specified district.
 City Population
