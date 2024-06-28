@@ -6,6 +6,10 @@
 git clone *[REPOSITORY URL]*
 
 
+**change directory**
+
+cd <repo-name >
+
 **Build docker image:**
 
 docker build -t worlddb:latest .
