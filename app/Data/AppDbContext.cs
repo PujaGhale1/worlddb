@@ -15,7 +15,14 @@ public class AppDbContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Country>()
+            .ToTable("country") // Ensure mapping to correct table name in MySQL
             .HasKey(c => c.Code); // Define primary key for Country entity
+
+        modelBuilder.Entity<City>()
+            .ToTable("city"); // Ensure mapping to correct table name in MySQL
+
+        modelBuilder.Entity<CountryLanguage>()
+            .ToTable("countrylanguage");
 
         modelBuilder.Entity<Country>()
             .HasMany(c => c.Cities)
