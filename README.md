@@ -20,10 +20,14 @@ docker-compose up -d
 
 (Comming soon)
 
-# Code of Conduct
+## Contributor Covenant Code of Conduct
 
-In order to foster an open and welcoming environment, we pledge to make participation in this space a harassment free experience for everyone, regardless of sex, age, gender, personnel appearance, nationality and oritentation. Please be considerate on what you share and how you express your opinions. 
-
+We as members, contributors, and leaders pledge to make participation in our
+community a harassment-free experience for everyone, regardless of age, body
+size, visible or invisible disability, ethnicity, sex characteristics, gender
+identity and expression, level of experience, education, socio-economic status,
+nationality, personal appearance, race, religion, or sexual identity
+and orientation.
 
 # Contribution Guidelines
 
