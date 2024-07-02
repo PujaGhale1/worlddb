@@ -3,7 +3,7 @@
 
 **Clone the repository:**
 
-git clone *[REPOSITORY URL]*
+git clone https://github.com/PujaGhale1/worlddb.git
 
 
 **change directory**
