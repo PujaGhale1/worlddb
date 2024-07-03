@@ -19,6 +19,16 @@ docker build -t worlddb:latest .
 
 docker-compose up -d
 
+**Use Case:**
+
+Strictly addressing the identified use case in the population reporting project, it is designed to give the user tools to create extensive and detailed reports on population. This system is ideal for authorities, politicians, city managers and other research institutions involved in analyzing demographic data. When a user enters the system he has an option of picking which type of report he or she would require say by countries or cities or even capital cities in order of population. For example, the user inputs filter criteria such as deciding on which continent to apply the top-populated cities filter or the number of top-populated cities desired. The system then extracts the required data from the lower-level MySQL database, filters the data using fast SQL calls and disseminates the actionable information in a simple, intelligible manner. This makes it possible to view the important populations that will be needed for analysis and planning from a given area in the shortest time possible.
+
+For example, the user could need a list of ten most populated cities in Asia which should be included in the report. The displayed attributes are the following: number of towns 10 and continent Asia After inputting the log in details and proceeding to the right section a value of “10” for the number of towns is entered. When the user starts the generation of the report, the system in turn opens the database, processes data, and then offers to the list of the top 10 cities in Asia, population wise with the actual population size. The user can also see this report on the display and based on the report’s findings, the user may have to download this report in file formats such as pdf or csv for the report be subjected to further analysis and presentation. This features and functionality makes sure that the users are able to easily use the system to learn ideas about the trends and patterns of population in a diverse manner, which enables the making of good decisions and management of resources.
+
+**Use Case Diagram**
+
+![image](https://github.com/PujaGhale1/worlddb/assets/171217357/9732da8f-e94a-4114-bd3f-fa8d3e10618f)
+
 
 ## API Endpoint Documents
 
