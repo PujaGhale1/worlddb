@@ -6,6 +6,10 @@
 git clone https://github.com/PujaGhale1/worlddb.git
 
 
+
+**Code,1,2,3.zip file and the repo clone files have been uploaded above which can be viewed after downloading, in the file explorer.**
+
+
 **change directory**
 
 cd <repo-name >
